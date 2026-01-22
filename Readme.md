@@ -222,7 +222,7 @@ A structured data model was created using fact and dimension tables, along with 
 **1. Dynamic Measure Selector Table**
 Used to enable interactive KPI switching across visuals.
 
-```DAX
+```sql
 -- Dynamic measure selection table
 Select Dynamic Measures = {
     ("Impressions", NAMEOF('ad_events'[Impressions]), 0),
@@ -236,7 +236,7 @@ Select Dynamic Measures = {
 
 A dynamic title column was added to improve visual context:
 
-```DAX
+```sql
 -- Dynamic title logic
 Dynamic Title =
 IF('Select Dynamic Measures'[Select Dynamic Measures Order] = 0, "Impressions",
@@ -251,7 +251,7 @@ IF('Select Dynamic Measures'[Select Dynamic Measures Order] = 5, "Purchases", "O
 **2. Calendar Table**
 Created to support robust time intelligence analysis.
 
-```DAX
+```sql
 -- Calendar table
 Calendar Table = CALENDAR(
     MIN(ad_events[Event Date]),
@@ -278,10 +278,6 @@ A total of **19 DAX measures** were created to evaluate performance, including:
 * Total Budget and Average Budget per Campaign
 * Dynamic titles for age, gender, geography, and time-based analysis
 
-```DAX
-# Model training / analysis
-# Placeholder for DAX measure logic
-```
 
 
 #### 6.5 Visualization & Reporting
