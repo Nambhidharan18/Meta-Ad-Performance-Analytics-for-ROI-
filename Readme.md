@@ -323,25 +323,35 @@ A simple, industry-standard structure suitable for a data analysis project using
 
 ```
 [Project Name]/
-├── data/
-│   ├── raw/
-│   │   └── facebook_campaign_data.csv
-│   │   └── instagram_campaign_data.csv
-│   └── processed/
-│       └── combined_clean_data.csv
-├── analysis/
-│   └── ad_performance_summary.pdf (or .docx)
-├── dashboard/
-│   └── Power_BI_Project_File.pbix
-├── reports/
-│   └── Executive_Summary_Report.pdf
+├── Dataset/
+│   └── ad_events.csv
+│   └── ads.csv
+│   └── users.csv
+│   └── campaigns.csv
+├── Image/
+│   └── pngimg.com - meta_PNG5.png
+│   └── Facebook_Logo_2023.png
+│   └── pngimg.com - meta_PNG7.png
+│   └── images.png
+│   └── Google_Ads_logo.svg.png
+│   └── Instagram_icon.png
+│   └── Threads_(app).png
+│   └── whatsapp.png
+├── Dashboard/
+│   └── Meta Ad Dashboard.pbix
 └── README.md
 ```
 
 
 
 ### 12. References
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" download>
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 The following resources and tools were utilized for data cleaning, analysis, visualization, and project development.
 
   * **Primary Tool:** Microsoft Power BI
