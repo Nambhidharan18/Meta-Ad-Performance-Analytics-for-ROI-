@@ -6,17 +6,35 @@ Analyzed Facebook and Instagram advertising data to track campaign performance, 
 
 
 ### 1. Introduction
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 Tracking advertising performance across Meta platforms is a critical challenge in digital marketing, as businesses must determine which campaigns effectively drive engagement and conversions. Without unified performance insights, marketing teams risk inefficient budget allocation and reduced return on investment. Data-driven analysis provides visibility into reach, engagement, conversion trends, and spend across Facebook and Instagram, enabling informed decision-making and continuous campaign optimization.
 
 
 ### 2. Problem Statement
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 Despite significant investment in Meta advertising, the business lacks clarity on how effectively advertisements convert into purchases. Fragmented campaign data across platforms makes it difficult to attribute conversions accurately and assess ROI. Key contributing factors include varying audience engagement patterns, platform-specific performance differences, and suboptimal budget allocation. Addressing these challenges through structured performance analysis will enable better conversion tracking, improved decision-making, and reduced inefficiencies in future campaigns.
 
 
 ### 3. Objectives
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 - Build a comprehensive performance tracking report for Facebook and Instagram advertising campaigns.  
 
 - Provide clear visibility into campaign reach, engagement, conversions, and budget utilization.  
@@ -30,7 +48,13 @@ Despite significant investment in Meta advertising, the business lacks clarity o
 
 
 ### 4. Dataset Description
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 The dataset represents Meta advertising campaign data used to analyze performance, engagement, and conversions. It includes four related datasets sourced from **Data Tutorials**: 
 
 * ad events (400,000 rows, 7 columns), 
@@ -44,7 +68,13 @@ The dataset represents Meta advertising campaign data used to analyze performanc
 
 
 ### 5. Skills and Tools Used
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 #### Skills
 
 - Data Analysis and Interpretation 
@@ -65,14 +95,25 @@ The dataset represents Meta advertising campaign data used to analyze performanc
 
 
 ### 6. Methodology
----
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
 
 This project focuses on analyzing digital advertising performance using multiple related datasets. The methodology outlines the complete process followed—from data ingestion to visualization—using **Power BI and Power Query**, with structured data modeling and business-focused metrics.
 
 
 
 #### 6.1 Data Collection & Ingestion
-  ---
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+  
 The data used in this project was collected from **local storage (drive-based files)** as provided in the project scope. A total of **four datasets** were used for analysis.
 
 ##### Data Sources
@@ -88,7 +129,13 @@ The data used in this project was collected from **local storage (drive-based fi
 
 
 #### 6.2. Data Understanding & Exploration
-  ---
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+  
 An initial data exploration phase was conducted to understand the structure, relationships, and analytical purpose of each dataset. This step ensured clarity around fact and dimension tables before modeling.
 
 ##### Dataset Overview
@@ -128,7 +175,13 @@ An initial data exploration phase was conducted to understand the structure, rel
 
 
 #### 6.3 Data Cleaning & Preprocessing
----
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 The datasets were largely pre-cleaned; however, essential validation and transformation steps were applied to ensure analytical accuracy.
 
 ##### Cleaning & Validation Steps
@@ -150,10 +203,13 @@ Event Date = DATEVALUE(ad_events[timestamp])
 Event Hour = HOUR(ad_events[timestamp])
 ```
 
----
 
 #### 6.4 Data Modeling & Analysis
----
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
 A structured data model was created using fact and dimension tables, along with calculated tables and measures to support dynamic analysis.
 
 ##### Calculated Tables
@@ -222,10 +278,14 @@ A total of **19 DAX measures** were created to evaluate performance, including:
 # Placeholder for DAX measure logic
 ```
 
----
 
 #### 6.5 Visualization & Reporting
----
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 Insights were communicated through an **interactive Power BI dashboard**, designed for clarity, usability, and business decision-making.
 
 ##### KPI Metrics Displayed
@@ -275,7 +335,13 @@ Insights were communicated through an **interactive Power BI dashboard**, design
  
 
 ### 7. Key Insights & Findings
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 The analysis of the advertising campaigns revealed critical patterns and trends across engagement, audience, format, and timing, highlighting a significant conversion gap in the purchase funnel.
 
   * **High Engagement, Low Conversion Efficiency:** Campaigns show strong initial performance with high Click-Through Rates (CTR) and Engagement Rates (ER), indicating successful **brand awareness** and **traffic generation**. However, the subsequent **purchase conversion rate** is inefficient, suggesting a bottleneck post-click that requires immediate attention (e.g., poor landing page experience or weak offers).
@@ -287,7 +353,13 @@ The analysis of the advertising campaigns revealed critical patterns and trends 
 
 
 ### 8. Business Recommendations
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 Based on the conversion gap identified, these recommendations focus on optimizing the ad budget, refining the target strategy, and improving post-click user experience to achieve the target goal of **Growth** and **Efficiency**.
 
 | Recommendation | Linked Insight | Business Impact (Goal: Growth/Efficiency) |
@@ -301,13 +373,25 @@ Based on the conversion gap identified, these recommendations focus on optimizin
 
 
 ### 9. Conclusion
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 This project successfully analyzed the performance of cross-platform digital advertising campaigns, addressing the initial challenge of identifying the most effective spend and conversion drivers. The analysis highlighted a critical conversion bottleneck in the purchase funnel, despite strong upper-funnel engagement. Key outcomes included identifying the most profitable audience segment (Female, 18–30, India/Brazil), establishing optimal ad formats (Video/Stories), and determining platform-specific conversion strengths. The insights provide an actionable roadmap to immediately optimize budget allocation and focus conversion efforts on improving post-click experience, ultimately delivering a clear strategy for maximizing campaign ROI and driving sustainable business growth.
 
 
 
 ### 10. Future Enhancements
-----------
+
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 To build on the initial analysis and further optimize campaign performance and scalability, the following enhancements are recommended:
 
   * **Longitudinal Performance Analysis:** Collect an additional 6–12 months of data to perform a year-over-year (YoY) performance analysis, identifying seasonal trends and long-term changes in audience behavior and platform effectiveness.
@@ -318,7 +402,12 @@ To build on the initial analysis and further optimize campaign performance and s
 
 
 ### 11. Folder Structure
-----------
+<p align="left">
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" target="_blank">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
+  </a>
+</p>
+
 A simple, industry-standard structure suitable for a data analysis project using Power BI.
 
 ```
@@ -347,7 +436,7 @@ A simple, industry-standard structure suitable for a data analysis project using
 ### 12. References
 
 <p align="left">
-  <a href= "https://www.linkedin.com/in/nambhidharan-s/" download>
+  <a href= "https://www.linkedin.com/in/nambhidharan-s/" targer='_black'>
     <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width= 1200>
   </a>
 </p>
@@ -362,6 +451,9 @@ The following resources and tools were utilized for data cleaning, analysis, vis
       * Shared Data Repository: [Link to Google Drive Folder] - [https://drive.google.com/drive/folders/1zMuw7Am1uUje8unU5wy\_MHlRqDmhT-dU](https://drive.google.com/drive/folders/1zMuw7Am1uUje8unU5wy_MHlRqDmhT-dU)
 
 
+<a href="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" download>
+Clik_here
+</a>
 
 
 
