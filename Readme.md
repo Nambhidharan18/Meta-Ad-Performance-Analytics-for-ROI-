@@ -212,7 +212,7 @@ Event Hour = HOUR(ad_events[timestamp])
 </p>
 A structured data model was created using fact and dimension tables, along with calculated tables and measures to support dynamic analysis.
 
-<img width="800" height="800" alt="Data model" style="display:block; margin:auto;" src="https://github.com/user-attachments/assets/d0b9e484-9985-4de9-a0d2-2802a6838b44" />
+<img src="https://github.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/edit/main/image/Data model.png">
 
 
 ##### Calculated Tables
