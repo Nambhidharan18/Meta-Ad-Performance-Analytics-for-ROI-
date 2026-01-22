@@ -212,6 +212,9 @@ Event Hour = HOUR(ad_events[timestamp])
 </p>
 A structured data model was created using fact and dimension tables, along with calculated tables and measures to support dynamic analysis.
 
+<img width="800" height="800" alt="Data model" style="display:block; margin:auto;" src="https://github.com/user-attachments/assets/d0b9e484-9985-4de9-a0d2-2802a6838b44" />
+
+
 ##### Calculated Tables
 
 **1. Dynamic Measure Selector Table**
@@ -451,9 +454,7 @@ The following resources and tools were utilized for data cleaning, analysis, vis
       * Shared Data Repository: [Link to Google Drive Folder] - [https://drive.google.com/drive/folders/1zMuw7Am1uUje8unU5wy\_MHlRqDmhT-dU](https://drive.google.com/drive/folders/1zMuw7Am1uUje8unU5wy_MHlRqDmhT-dU)
 
 
-<a href="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" download="115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-Clik_here
-</a>
+
 
 
 
