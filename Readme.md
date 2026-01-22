@@ -211,9 +211,11 @@ Event Hour = HOUR(ad_events[timestamp])
   </a>
 </p>
 A structured data model was created using fact and dimension tables, along with calculated tables and measures to support dynamic analysis.
+<br><br>
 
-<img src="https://github.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/edit/main/image/Data model.png">
-
+<div align = 'center'>
+  <img src="https://github.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/blob/main/Image/Data%20model.png">
+</div>
 
 ##### Calculated Tables
 
@@ -291,6 +293,12 @@ A total of **19 DAX measures** were created to evaluate performance, including:
 
 Insights were communicated through an **interactive Power BI dashboard**, designed for clarity, usability, and business decision-making.
 
+|**Page** |                       **Dashboard** |
+|:--|:--:|
+|  **Facebook** |<img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Facebook.png" height="800" width="800"/> |
+| **Instagram** | <img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Instragram.png" width="800" height="800"/> |
+
+
 ##### KPI Metrics Displayed
 
 * Impressions
@@ -328,14 +336,8 @@ Insights were communicated through an **interactive Power BI dashboard**, design
 * Performance analysis by ad type and creative category
 * Dynamic KPI switching for deeper exploration
 
-```plaintext
-# Visualization logic
-# Power BI visuals and dashboard layout
-```
 
 
-
- 
 
 ### 7. Key Insights & Findings
 
