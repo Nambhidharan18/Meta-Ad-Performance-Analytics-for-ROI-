@@ -295,8 +295,8 @@ Insights were communicated through an **interactive Power BI dashboard**, design
 
 |**Page** |                       **Dashboard** |
 |:--|:--:|
-|  **Facebook** |<img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Facebook.png" height="800" width="800"/> |
-| **Instagram** | <img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Instragram.png" width="800" height="800"/> |
+|  **Facebook** |<img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Facebook_Dashboard.png" height="800" width="800"/> |
+| **Instagram** | <img src="https://raw.githubusercontent.com/Nambhidharan18/Meta-Ad-Performance-Analytics-for-ROI-/main/Image/Instragram_Dashboard.png" width="800" height="800"/> |
 
 
 ##### KPI Metrics Displayed
