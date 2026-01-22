@@ -197,7 +197,7 @@ Two derived columns were added to the `ad_events` table to support time-based an
 * **Event Date**: Extracted date from timestamp
 * **Event Hour**: Extracted hour from timestamp
 
-```DAX
+```sql
 -- Data transformation / cleaning
 Event Date = DATEVALUE(ad_events[timestamp])
 Event Hour = HOUR(ad_events[timestamp])
